@@ -15,7 +15,7 @@
 
 // Minimal erc20 implementation
 
-pragma solidity >0.5.0;
+pragma solidity ^0.4.0;
 contract Token {
   mapping(address => uint) public balanceOf;
   uint public totalSupply;
